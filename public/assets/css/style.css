@@ -1,0 +1,207 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+
+}
+
+header h1 {
+	font-family: Work-Sans, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+
+	text-align: center;
+
+	margin: 20px 0 auto auto;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 0;
+	border: 2px solid #9E9E9E;
+
+	padding: 16px 26px;
+}
+
+.button a {
+	font-family: 'Fjalla-One', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+
+	text-decoration: none;
+}
+
+#digital-designer h2 {
+	font-family: Didact-Gothic, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 130%;
+
+	text-align: center;
+
+	margin: 60px auto;
+
+	width: 700px;
+	height: auto;
+}
+
+#digital-designer img {
+	display: block;
+	box-sizing: border-box;
+	width: 720px;
+
+	margin: auto;
+}
+
+#digital-designer h3 {
+	font-family: Work-Sans, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 160px;
+	line-height: 188px;
+
+	text-align: center;
+
+	margin: 120px auto;
+
+	width: 700px;
+	height: auto;
+}
+
+/* Background Overrides */
+
+#orbis {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/portfolio2.jpg");
+	background-size: cover;
+}
+
+#rollr {
+	background: url("../img/portfolio3.png");
+	background-size: cover;
+}
+
+#galitos {
+	background: url("../img/portfolio4.jpg");
+	background-size: cover;
+}
+
+#tretto {
+	background: url("../img/portfolio5.png");
+	background-size: cover;
+}
+
+#what-more {
+	background-color: black;
+	font-family: 'Work-Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#what-more section {
+	display: inline-block;
+	width: 700px;
+	padding: 0 0 0 640px;
+}
+
+#what-more h1 {
+	font-size: 180px;
+	line-height: 211px;
+	text-align: center;
+	letter-spacing: -0.1em;
+
+	margin: auto;
+	padding: 130px;
+
+	color: #FFFFFF;
+}
+
+#what-more p {
+	font-size: 22px;
+	line-height: 180%;
+	margin: 0;
+	padding: 0;
+
+	letter-spacing: 0.01em;
+
+	color: #666666;
+}
+
+#what-more a {
+	display: block;
+	color: white;
+	text-decoration: none;
+
+	padding: 70px 0 0 0;
+
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -0.06em;
+}
+
+#what-more a:hover {
+	text-decoration: underline;
+	filter: drop-shadow(0px 0px 40px white);
+}
+
+#socials section {
+	padding: 80px 0;
+}
+
+#socials a {
+	display: block;
+
+	font-family: 'Didact-Gothic', sans-serif;
+	font-size: 160px;
+
+	color: black;
+	text-decoration: none;
+
+	text-align: center;
+
+	margin: 150px auto 0 auto;
+}
+
+#socials a:hover {
+	text-decoration: underline;
+}
+
+#socials p {
+
+	height: 600px;
+
+	color: black;
+	text-decoration: none;
+
+	font-size: 100px;
+
+	text-align: center;
+
+	margin: 0 auto;
+
+	animation-name: heart-anim;
+	animation-duration: 6s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+
+@keyframes heart-anim {
+	from {
+		font-size: 100px;
+	}
+	to {
+		font-size: 500px;
+	}
+}
