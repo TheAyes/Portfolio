@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Work-Sans';
+	src: url('../fonts/WorkSans-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Didact-Gothic';
+	src: url('../fonts/DidactGothic-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Fjalla-One';
+	src: url('../fonts/FjallaOne-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
