@@ -3,7 +3,7 @@ GIT-IGNORE
 
 # production
 build
-
+dist
 test-dist
 test-dev
 coverage
